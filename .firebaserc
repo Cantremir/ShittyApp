@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "shittyapp-3df82": {
+      "hosting": {
+        "app": [
+          "shittyapp-3df82"
+        ]
+      }
+    }
+  }
+}
