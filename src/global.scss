@@ -24,3 +24,24 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.delete-alert {
+    // --background: url('/assets/img/background.png') no-repeat 100% 100%;
+    --height: 271px;
+    --width: 280px;
+    --ion-backdrop-color: rgb(230, 155, 16);
+    text-transform: uppercase
+}
+
+// styling/specificity for elements that compose alerts is fucky
+// gotta have at least (0, 2, 1) specificity
+
+// .alert-head h2.alert-title {
+//     color: rgb(194, 34, 34);
+//     background-color: skyblue;
+// }
+
+// .alert-wrapper div.alert-message {
+//     color: slateblue;
+//     background-color: springgreen;
+// }

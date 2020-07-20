@@ -14,7 +14,7 @@
   /** secondary **/
   --ion-color-secondary: #f0f327;
   --ion-color-secondary-rgb: 61, 194, 255;
-  --ion-color-secondary-contrast: #0a0a0a;
+  --ion-color-secondary-contrast: #248842;
   --ion-color-secondary-contrast-rgb: 255, 255, 255;
   --ion-color-secondary-shade: #36abe0;
   --ion-color-secondary-tint: #50c8ff;
@@ -76,7 +76,7 @@
   --ion-color-light-tint: #f5f6f9;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   /*
    * Dark Colors
    * -------------------------------------------
